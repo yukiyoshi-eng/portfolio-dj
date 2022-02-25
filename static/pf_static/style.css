@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+}
+
+.header .navbar {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  display: block;
+}
+
+.header .sticky {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: black;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 3%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.header .sticky .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 5rem;
+  margin-top: 10px;
+}
+
+.header .logo {
+  width: 10rem;
+  margin: 0 auto 20px auto;
+  cursor: pointer;
+}
+
+.header .navul {
+  background: black;
+  width: 100%;
+}
+
+.header .navul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 30px;
+}
+
+.header .navul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.this-site {
+  margin: 20px 0 0 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.profile {
+  margin: 20px 0 0 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.what_i_made {
+  margin: 20px 0 0 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact {
+  margin: 20px 0 0 20px;
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
