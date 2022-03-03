@@ -1,3 +1,5 @@
 web:
-python
-manage.py
+gunicorn
+portfolio.wsgi
+--log-file
+-
